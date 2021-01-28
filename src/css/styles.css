@@ -1,0 +1,43 @@
+body {
+  padding: 10px;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.person {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  margin: 5px;
+  border: 1px solid rgb(224, 152, 139);
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: auto;
+  height: 100%;
+}
+
+.modal {
+  background-color: rgba(173, 147, 173, 0.856);
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
